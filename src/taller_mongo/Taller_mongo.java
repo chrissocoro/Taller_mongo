@@ -38,7 +38,7 @@ public class Taller_mongo {
                 LinkedList<tipo> listaT = new LinkedList();
                 tipo t = new tipo("escuela",2200);
                 listaT.add(t);
-                donacion Dn = new donacion('11/dd/yyyy HH:mm:ss', 30000, listaT);
+                donacion Dn = new donacion("11/08/2018", 30000, listaT);
                 
 
                 

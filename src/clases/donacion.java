@@ -33,7 +33,7 @@ public class donacion extends BasicDBObject {
         this.partial = partial;
     }
 
-    public donacion(DateTimeDV fechadonacion, double valortotal, LinkedList<tipo> tipodedonaciones) {
+    public donacion(String fechadonacion, double valortotal, LinkedList<tipo> tipodedonaciones) {
         this.put(FECHADONACION, fechadonacion);
         this.put(VALORTOTAL, valortotal);
         this.put(TIPODEDONACION, tipodedonaciones);
@@ -66,8 +66,8 @@ public class donacion extends BasicDBObject {
         return this.FECHADONACION;
     }
     
-     public void setFECHADONACION(DateTimeDV  fechadonacion) {
-        this.put(FECHADONACION,fechadonacion );
+     public void setFECHADONACION(String fechadonacion) {
+        this.put(FECHADONACION,fechadonacion);
     }
 
     public String getVALORTOTAL() {
